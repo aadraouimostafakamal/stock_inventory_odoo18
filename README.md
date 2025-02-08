@@ -616,21 +616,3 @@ Chaque modèle dispose d'un accès (lecture, écriture, création, suppression) 
 Les contributions sont les bienvenues !  
 - Pour proposer des améliorations ou corriger des erreurs, créez une pull request ou soumettez une issue sur GitHub.
 
----
-
-## 15. Licence
-
-Ce projet est sous licence [Votre Licence] (par exemple, MIT, GPL, etc.).  
-(Veuillez ajouter les détails de la licence ici.)
-
----
-
-## Conclusion
-
-Ce module offre une solution complète pour la gestion des stocks et des inventaires, adaptée aux besoins d'une institution telle que l'ENSAO au Maroc. Grâce à une documentation détaillée et des cas d'utilisation concrets, ce projet est facilement maintenable et extensible.
-
-N'hésitez pas à contribuer et à partager vos retours !
-
----
-
-Vous pouvez copier ce contenu dans un fichier `README.md` à la racine de votre dépôt GitHub pour fournir une documentation complète en français.
