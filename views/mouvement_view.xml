@@ -1,0 +1,44 @@
+<odoo>
+    <data>
+        <!-- Form View -->
+        <record id="mouvement_form_view" model="ir.ui.view">
+            <field name="name">mouvement.form.view</field>
+            <field name="model">stock.mouvement</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="product_id"/>
+                            <field name="quantity"/>
+                            <field name="type"/>
+                            <field name="emplacement_source_id"/>
+                            <field name="emplacement_destination_id"/>
+                            <field name="reason"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- List View -->
+        <record id="mouvement_list_view" model="ir.ui.view">
+            <field name="name">mouvement.list.view</field>
+            <field name="model">stock.mouvement</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="date"/>
+                    <field name="product_id"/>
+                    <field name="quantity"/>
+                    <field name="type"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="mouvement_action" model="ir.actions.act_window">
+            <field name="name">Mouvements</field>
+            <field name="res_model">stock.mouvement</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

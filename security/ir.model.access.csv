@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_categorie,categorie.produit,model_categorie_produit,base.group_user,1,1,1,1
+access_fournisseur,fournisseur.model,model_fournisseur_model,base.group_user,1,1,1,1
+access_emplacement,stock.emplacement,model_stock_emplacement,base.group_user,1,1,1,1
+access_produit,stock.produits,model_stock_produits,base.group_user,1,1,1,1
+access_mouvement,stock.mouvement,model_stock_mouvement,base.group_user,1,1,1,1
+access_quantite,stock.quantity,model_stock_quantity,base.group_user,1,1,1,1

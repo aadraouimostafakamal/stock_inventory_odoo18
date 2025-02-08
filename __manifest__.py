@@ -1,0 +1,22 @@
+{
+    'name': 'Gestion de Stock et Inventaire',
+    'version': '1.0',
+    'category': 'Inventory',
+    'summary': 'Gestion des stocks et inventaire',
+    'description': 'Module pour gérer les stocks et les inventaires.',
+    'depends': ['base','web'],
+    'data': [
+        'data/sequences.xml',
+        'security/ir.model.access.csv',
+        'views/categorie_view.xml',
+        'views/fournisseur_view.xml',
+        'views/stock_quantity_views.xml',
+        'views/emplacement_view.xml',
+        'views/produit_view.xml',
+        'views/mouvement_view.xml',
+        'reports/stock_report.xml',
+        'views/menus.xml',
+    ],
+    'installable': True,
+    'application': True,
+}
