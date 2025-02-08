@@ -1,7 +1,3 @@
-Voici un exemple complet de documentation en français pour votre module Odoo, que vous pouvez utiliser dans le fichier `README.md` de votre dépôt GitHub. Ce document détaille chaque composant du module, ses modèles, ses vues, ses rapports et propose plusieurs cas d'utilisation.
-
----
-
 # Gestion de Stock et Inventaire (Odoo 18)
 
 ## 1. Introduction
