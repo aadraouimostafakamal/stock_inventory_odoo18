@@ -39,12 +39,7 @@ stock_inventory_project/
 │   └── stock_quantity_views.xml
 ├── reports/
 │   └── stock_report.xml
-└── static/
-    └── src/
-        ├── css/
-        │   └── custom.css
-        └── js/
-            └── custom.js
+
 ```
 
 Le fichier `__manifest__.py` définit les métadonnées du module (nom, version, dépendances, fichiers à charger, etc.).
